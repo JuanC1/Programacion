@@ -252,7 +252,7 @@ public class OfficesView extends javax.swing.JFrame {
             String serverAnswer = officesController.createOffice(officeCode, city, Phone, addressLine1, addressLine2, state, country, postalCode, territory);
              JOptionPane.showMessageDialog(null, serverAnswer);
        }else{
-           JOptionPane.showMessageDialog(null,"No esta lleno todo el formulario");
+           JOptionPane.showMessageDialog(null,"Llene todo el formulario por favor");
        }
     }//GEN-LAST:event_btncreateActionPerformed
 
